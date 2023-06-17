@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+    <!-- icon link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- nav section starts -->
+
+    <nav>
+      <div class="nav_container container">
+        <div class="logo">
+          <img src="images/logo.svg" />
+        </div>
+        <div class="navigators">
+          <div class="links">
+            <!-- a1 -->
+            <a href="#" class="anchor">
+              <span>
+                <p>product</p>
+                <span class="arrow">
+                  <i class="bx bx-chevron-down"></i>
+                  <i class="bx bx-chevron-up"></i>
+                </span>
+              </span>
+              <ul class="sub_menu">
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Integrations</li>
+              </ul>
+            </a>
+
+            <!-- a2 -->
+            <a href="#" class="anchor">
+              <span
+                ><p>Company</p>
+                <span class="arrow">
+                  <i class="bx bx-chevron-down"></i>
+                  <i class="bx bx-chevron-up"></i>
+                </span>
+              </span>
+              <ul class="sub_menu">
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Careers</li>
+              </ul>
+            </a>
+
+            <!-- a3 -->
+            <a href="#" class="anchor">
+              <span>
+                <p>Connect</p>
+                <span class="arrow">
+                  <i class="bx bx-chevron-down"></i>
+                  <i class="bx bx-chevron-up"></i>
+                </span>
+              </span>
+              <ul class="sub_menu">
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
+              </ul>
+            </a>
+          </div>
+
+          <div class="btns">
+            <button>login</button>
+            <button>Sign Up</button>
+          </div>
+        </div>
+        <div class="menu_btn">
+          <i class="bx bx-menu"></i>
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="overlay"></div>
+    <!-- nav section ends -->
+
+    <!-- into section starts  -->
+
+    <div class="intro">
+      <div class="img">
+        <img src="images/bg-pattern-intro-desktop.svg" class="desktop_intro" />
+        <img src="images/bg-pattern-intro-mobile.svg" class="mobile_intro" />
+      </div>
+
+      <div class="intro_container container">
+        <div class="txt">
+          <h1>A modern publishing platform</h1>
+          <p>Grow your audience and build your online brand</p>
+          <div class="btns">
+            <button>Start for Free</button>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- into section ends -->
+
+    <!-- about section start -->
+
+    <div class="about">
+      <!-- first_section starts -->
+      <section class="first_section container">
+        <h2>Designed for the future</h2>
+
+        <div class="div">
+          <div class="txt">
+            <!-- col_1 -->
+            <div class="col_1">
+              <h3>Introducing an extensible editor</h3>
+              <p>
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+            </div>
+            <!-- col_2 -->
+            <div class="col_2">
+              <h3>Robust content management</h3>
+              <p>
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+          </div>
+          <div class="img">
+            <img
+              src="images/illustration-editor-desktop.svg"
+              class="desktop_illus"
+            />
+            <img
+              src="images/illustration-editor-mobile.svg"
+              class="mobile_illus"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- first_section ends -->
+
+      <!-- second section starts -->
+      <section class="second_section">
+        <div class="div">
+          <div class="container">
+            <div class="img">
+              <img src="images/illustration-phones.svg" class="phone_desktop" />
+            </div>
+            <div class="txt">
+              <h3>State of the Art Infrastructure</h3>
+              <p>
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- second section ends -->
+
+      <!-- third section starts -->
+      <section class="third_section container">
+        <div class="div">
+          <div class="img">
+            <img
+              src="images/illustration-laptop-desktop.svg"
+              class="desktop_lap"
+            />
+            <img
+              src="images/illustration-laptop-desktop.svg"
+              class="mobile_lap"
+            />
+          </div>
+          <div class="txt">
+            <!-- col_1 -->
+            <div class="col_1">
+              <h4>Free, open, simple</h4>
+              <p>
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
+            </div>
+            <!-- col_2 -->
+            <div class="col_2">
+              <h4>Powerful tooling</h4>
+              <p>
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- third section ends -->
+    </div>
+
+    <!-- about section ends -->
+    <div class="footer">
+      <div class="container">
+        <div class="footer_logo">
+          <img src="images/logo.svg" />
+        </div>
+        <div class="bx">
+          <h5>Product</h5>
+          <p>Overview</p>
+          <p>Pricing</p>
+          <p>Marketplace</p>
+          <p>Features</p>
+          <p>Integrations</p>
+        </div>
+        <div class="bx">
+          <h5>Company</h5>
+          <p>About</p>
+          <p>Team</p>
+          <p>Blog</p>
+          <p>Careers</p>
+        </div>
+        <div class="bx">
+          <h5>Connect</h5>
+          <p>Contact</p>
+          <p>Newsletter</p>
+          <p>LinkedIn</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">worthwhile</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
